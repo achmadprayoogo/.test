@@ -1,1 +1,86 @@
-hai selamat pagi
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control
+$ git init
+Initialized empty Git repository in C:/Users/Syihab/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control/.git/
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git status
+On branch master
+
+No commits yet  
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        teks1.txt
+        texks2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git add teks1.txt
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   teks1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        texks2.txt
+
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git add .
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   teks1.txt
+        new file:   texks2.txt
+
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git commit -m "pagi ke malam"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Syihab@DESKTOP-2QSVCLC.(none)')
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git config --global user.email "syihabachmad0@gmail.com"
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git config --global user.name "syihab achmad"
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git commit -m "test"
+[master (root-commit) af9a9b1] test
+ 2 files changed, 2 insertions(+)
+ create mode 100644 teks1.txt
+ create mode 100644 texks2.txt
+
+Syihab@DESKTOP-2QSVCLC MINGW64 ~/Documents/Documents-Google drive backup/FullStack Web Development/Back-end/6.1 git-version-control (master)
+$ git log
+commit af9a9b1cfbee6b0e64449228098208f4fe9c2aea (HEAD -> master)
+Author: syihab achmad <syihabachmad0@gmail.com>
+Date:   Fri Aug 11 08:03:57 2023 +0700
+
+    test
